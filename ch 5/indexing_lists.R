@@ -41,3 +41,7 @@ l[c("fourth", "second", "fifth")]
 l[["fourth"]]
 l["fourth"]
 l$fourth
+
+# error with numerical indices
+l[4]
+l[[4]]
