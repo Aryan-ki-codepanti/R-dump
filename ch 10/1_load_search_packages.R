@@ -30,3 +30,8 @@ R.home("library")
 
 
 .libPaths()
+
+# update package
+# update.packages(ask = FALSE)
+# remove package
+# remove.packages("zoo")
