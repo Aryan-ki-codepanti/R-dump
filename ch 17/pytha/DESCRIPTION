@@ -1,0 +1,9 @@
+Package: pytha
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2023-05-04
+Author: AryanSethi
+Maintainer: Who to complain to <no_complaints@gmail.com>
+Description: does nothing but practice
+License: NOPE_LICENSE
