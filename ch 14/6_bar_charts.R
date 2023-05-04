@@ -28,5 +28,5 @@ with(ovm,
 
 religions <- with(ovm, rbind(Catholic, Protestant, Non.religious, Other))
 colnames(religions) <- ovm$State
-par(las = 1, mar = c(3,9,1,1))
+par(las = 1, mar = c(3, 9, 1, 1))
 barplot(religions, horiz = TRUE, beside = FALSE)
