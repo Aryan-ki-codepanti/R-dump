@@ -69,13 +69,3 @@ write.csv(
     fileEncoding = "utf8"
 )
 
-library(ggplot2)
-ggplot(rainfall_data, aes(x = DAY, y = Rainfall)) + 
-    geom_point() +
-        facet_wrap(~ MONTH) +
-            ggtitle("Rainfall by Day and Month")
-
-ggplot(rainfall_data, aes(x = DAY, y = Rainfall)) + 
-    stat_summary(fun.y - sum, geom- "bar") +
-            ggtitle("Total Rainfall by Month")
-
