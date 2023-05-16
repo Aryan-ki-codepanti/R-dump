@@ -10,5 +10,5 @@ mean(a)
 median(a)
 #3) vectorized nature of args
 mean(1, 3, 5)
-# median(1,2,3,-1) err
-
+# errs
+median(1, 2, 3, -1) 

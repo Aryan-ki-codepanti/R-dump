@@ -1,6 +1,6 @@
 # ?mean
-# ?"+"
-# ??plotting
+# ?"+" help
+# ??plotting search
 
 
 help("mean")

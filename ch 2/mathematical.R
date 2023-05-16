@@ -17,6 +17,3 @@ factorial(c(10, 11, 3))
 
 # choose (n, k) = nCk combos
 choose(5, 2:4)
-
-
-

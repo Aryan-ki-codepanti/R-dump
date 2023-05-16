@@ -9,10 +9,10 @@ assign("name", "aryan")
 assign("age", 3, globalenv())
 
 print(c(name, age))
-name;
+name
 age
 
-a <- 2;
+a <- 2
 a
 z <- rnorm(2)
 z
