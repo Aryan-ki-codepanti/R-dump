@@ -32,4 +32,3 @@ ls(pattern = "a")
 # Removal of variables
 rm(char_)
 rm(list = ls()) # all variables removed
-
