@@ -5,7 +5,7 @@ rt
 hypotenuse <- function(x, y) {
     sqrt(x ^ 2 + y ^ 2)
 }
-a = hypotenuse(5, 7)
+a <- hypotenuse(5, 7)
 a
 
 # one liner body so can omit {}

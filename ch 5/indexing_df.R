@@ -23,6 +23,6 @@ class(df$x[2:3])
 df[[1]][2:3]
 df[["x"]][2:3]
 
-# or 
+# or
 df[df$y > 0 | df$z, "x"]
 subset(df, y > 0 | z, "x")

@@ -41,4 +41,3 @@ exists("root", nested_env, inherits = FALSE)
 # global and base
 non_stormers <<- c(3, 7, 8, 13, 17, 18, 21)
 get("non_stormers", envir = globalenv())
-
