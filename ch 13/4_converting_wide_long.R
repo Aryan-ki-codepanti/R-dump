@@ -22,4 +22,3 @@ melt(deer_wide, measure.vars = c("VolCT", "VolBead"), id.vars = "SkullID")
 # ~ formula y ~ x , y = f(x)
 deer_wide_again <- dcast(deer_long, SkullID ~ variable)
 deer_wide_again #ordered alpha by skullid
-

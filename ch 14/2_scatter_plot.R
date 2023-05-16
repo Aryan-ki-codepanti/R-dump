@@ -9,4 +9,3 @@ with(obama_vs_mccain, plot(Income, Turnout))
 
 # plot args col for color , pch for  dot shape, bg , main as title
 with(obama_vs_mccain, plot(Income, Turnout, col = "violet", pch = 20, main = "Turnout vs Income"))
-

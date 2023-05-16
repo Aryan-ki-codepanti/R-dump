@@ -8,6 +8,4 @@ na.omit(deer_endocranial_volume)
 
 # na.fail gives error if df has any missin vals
 na.fail(deer_endocranial_volume)
-
 # they can also accept vecs  as well
-

@@ -13,4 +13,3 @@ with(
     crab_tag$daylog,
     lines(Date, - Min.Depth, col = "red")
 )
-

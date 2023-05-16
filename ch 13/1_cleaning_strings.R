@@ -65,4 +65,3 @@ gender <- c(
 #     ignore.case('^f(emale)?$'),
 #     "Female"
 #     ))
-

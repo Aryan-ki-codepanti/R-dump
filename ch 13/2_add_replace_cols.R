@@ -26,5 +26,4 @@ english_monarchs <- mutate(
     reign.more.than.30 = length.of.reign > 30
 )
 
-english_monarchs[ , c("length.of.reign", "reign.more.than.30")]
-
+english_monarchs[, c("length.of.reign", "reign.more.than.30")]
