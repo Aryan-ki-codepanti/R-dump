@@ -4,10 +4,9 @@ greek <- switch(
     alpha = 1,
     beta = sqrt(-2),
     gamma = {
-        a <- sin(pi/3)
-        4*a^2
-    }
-)
+    a <- sin(pi / 3)
+    4 * a ^ 2
+})
 
 greek
 # no match returns nulllllllll
@@ -16,9 +15,9 @@ greek
     alpha = 1,
     beta = sqrt(-2),
     gamma = {
-        a <- sin(pi/3)
-        4*a^2
-    }
+    a <- sin(pi / 3)
+    4 * a ^ 2
+}
 ))
 
 # unnamed arg for no match
@@ -27,9 +26,9 @@ greek
     alpha = 1,
     beta = sqrt(-2),
     gamma = {
-        a <- sin(pi/3)
-        4*a^2
-    },
+    a <- sin(pi / 3)
+    4 * a ^ 2
+},
     "default arg"
 ))
 

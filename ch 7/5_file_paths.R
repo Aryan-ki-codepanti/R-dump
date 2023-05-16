@@ -12,11 +12,11 @@ p1 <- "E:\\college"
 file.path("E:", "college")
 R.home()
 
-# relative -> abs paths 
+# relative -> abs paths
 path.expand(".")
 path.expand("../ch6")
 path.expand("~")
 
 file_name <- "E:/college"
 basename(file_name) # file name w/o parent info
-dirname(file_name) # parent dir info w/o file name 
+dirname(file_name) # parent dir info w/o file name

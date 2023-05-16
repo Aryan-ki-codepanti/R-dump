@@ -8,17 +8,17 @@ pow_of_e
 formatC(pow_of_e, digits = 3)
 # ,width
 formatC(pow_of_e, digits = 3, width = 5)
-# , scientific, 
+# , scientific,
 formatC(pow_of_e, digits = 3, format = "e")
 # +ves
 formatC(pow_of_e, digits = 3, flag = "+")
 
 # sprintf like C's printf
-sprintf("%s %d = %f\n", "Euler's const to power" , pow, pow_of_e)
+sprintf("%s %d = %f\n", "Euler's const to power", pow, pow_of_e)
 # 2  decimal pts
-sprintf("%s %d = %.2f\n", "Euler's const to power" , pow, pow_of_e)
+sprintf("%s %d = %.2f\n", "Euler's const to power", pow, pow_of_e)
 # sci
-sprintf("%s e^%d = %e", "Euler's const to power" , pow, pow_of_e)
+sprintf("%s e^%d = %e", "Euler's const to power", pow, pow_of_e)
 
 
 # format like formatC
@@ -34,4 +34,3 @@ prettyNum(
     preserve.width = "individual",
     scientific = FALSE
 )
-

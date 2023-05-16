@@ -14,6 +14,5 @@ yn <- rep.int(c(TRUE, FALSE), 6)
 ifelse(yn, 1:3, -1:-12)
 
 # missing vals -> missing res
-yn[c(3,6,9,12)] <- NA
+yn[c(3, 6, 9, 12)] <- NA
 ifelse(yn, 1:3, -1:-12)
-

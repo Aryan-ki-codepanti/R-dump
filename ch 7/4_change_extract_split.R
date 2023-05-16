@@ -12,8 +12,8 @@ substring("aryann", 5)
 # substr("aryann", 5) 
 
 # extract several substrings with one line of code. With substr, this is not possible. If we apply substr to several starting or stopping points, the function uses only the first entry
-substr("artab", start = 1, stop = 1:5)  
-substring("artab", first = 1, last = 1:5)  
+substr("artab", start = 1, stop = 1:5)
+substring("artab", first = 1, last = 1:5)
 
 # SPLITTING STR
 x <- c(

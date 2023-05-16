@@ -27,5 +27,5 @@ l <- list(
     , list(TRUE)
 )
 
-for(i in l)
+for (i in l)
     print(i)

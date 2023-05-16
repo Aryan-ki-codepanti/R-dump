@@ -7,6 +7,7 @@ heights <- data.frame(
     gender = c(
         "female", "male", "female", "male", "male", "female", "female", "male", "male", "female"
     )
+# ,stringsAsFactors = TRUE
 )
 
 heights
